@@ -74,7 +74,7 @@ if [ "$rplcheck" = "true" ]; then
   sed -i 's/https:\/\/g\.eags\.us\/eaglercraft/https:\/\/gnome\.vercel\.app/' web/index.html
   sed -i 's/alert/console.log/' web/index.html
   echo setting default server...
-  sed -i 's/"CgAACQAHc2VydmVycwoAAAABCAACaXAAJHdzczovL2cuZWFncy51cy9lYWdsZXJjcmFmdC9jcmVhdGl2ZQgABG5hbWUAFGVhZ2xlcmNyYWZ0IGNyZWF0aXZlAQALaGlkZUFkZHJlc3MACAAKZm9yY2VkTU9URAAhdGhpcyBpcyBtZWFudCB0byBiZSBhIGRlbW8gc2VydmVyAAA="/btoa(atob("CgAACQAHc2VydmVycwoAAAABCAAKZm9yY2VkTU9URABtb3RkaGVyZQEAC2hpZGVBZGRyZXNzAQgAAmlwAGlwaGVyZQgABG5hbWUAbmFtZWhlcmUAAA==").replace("motdhere",String.fromCharCode("Your Minecraft Server".length)+"Your Minecraft Server").replace("namehere",String.fromCharCode("Minecraft Server".length)+"Minecraft Server").replace("iphere",String.fromCharCode(("ws"+location.protocol.slice(4)+"\/\/"+location.host+"\/server").length)+("ws"+location.protocol.slice(4)+"\/\/"+location.host+"\/server")))/' web/index.html
+  sed -i 's/"CgAACQAHc2VydmVycwoAAAABCAACaXAAIHdzKHMpOi8vIChhZGRyZXNzIGhlcmUpOihwb3J0KSAvCAAEbmFtZQAIdGVtcGxhdGUBAAtoaWRlQWRkcmVzcwEIAApmb3JjZWRNT1REABl0aGlzIGlzIG5vdCBhIHJlYWwgc2VydmVyAAA="/btoa(atob("CgAACQAHc2VydmVycwoAAAABCAAKZm9yY2VkTU9URABtb3RkaGVyZQEAC2hpZGVBZGRyZXNzAQgAAmlwAGlwaGVyZQgABG5hbWUAbmFtZWhlcmUAAA==").replace("motdhere",String.fromCharCode("Your Minecraft Server".length)+"Your Minecraft Server").replace("namehere",String.fromCharCode("Minecraft Server".length)+"Minecraft Server").replace("iphere",String.fromCharCode(("ws"+location.protocol.slice(4)+"\/\/"+location.host+"\/server").length)+("ws"+location.protocol.slice(4)+"\/\/"+location.host+"\/server")))/' web/index.html
 fi
 
 echo starting nginx...
