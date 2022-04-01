@@ -1,4 +1,3 @@
-
 # replit eaglercraft server
 
 [extra help discord server](https://discord.gg/9HfPSp3D)
