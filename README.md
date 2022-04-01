@@ -5,7 +5,7 @@
 ### smashed together by [ayunami2000](https://github.com/ayunami2000)
 
 ## Helpful video tutorial by a generous user
-motd changing is a LOT easier now -- see the top of `main.sh` to change it!!
+motd changing is DIFFERENT than what these tutorials say!! -- check the `java/bungee_command/config.yml` for how to change (motd1 is first line, motd2 (you can add this) is the 2nd one)
 
 https://www.wevideo.com/view/2581865286
 
