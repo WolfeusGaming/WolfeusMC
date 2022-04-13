@@ -11,6 +11,9 @@ https://www.wevideo.com/view/2581865286
 
 YouTube Mirror: https://www.youtube.com/watch?v=As99AOL_-vM
 
+## [Helpful Google Doc by a generous user](https://docs.google.com/document/d/1MdaQRQbRXb9wXRtdS-c7OGBMcTh9DO8iAKT6fcpdJ5g/edit)
+Here in case it helps!
+
 ## Usage:
 Fork it, and press "Run" at the top to run the server!
 

@@ -53,6 +53,10 @@ else
   unzip stable-download.zip -d /tmp/new
   echo deleting original zip file...
   rm -rf stable-download.zip
+  mkdir web
+  mkdir java
+  mkdir java/bungee_command
+  mkdir java/bukkit_command
   if [ "$syncweb" = "true" ]; then
     echo updating web folder...
     rm -rf web/*
