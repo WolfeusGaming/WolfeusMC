@@ -5,5 +5,6 @@
         pkgs.unzip
         pkgs.nginx
         pkgs.busybox
+        pkgs.tmux
     ];
 }

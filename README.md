@@ -1,6 +1,8 @@
 # replit eaglercraft server
 
 [extra help discord server](https://discord.gg/9HfPSp3D)
+|
+[anotha one](https://discord.gg/FBqfmDkF2Z)
 
 ### smashed together by [ayunami2000](https://github.com/ayunami2000)
 

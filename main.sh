@@ -96,7 +96,7 @@ fi
 
 echo starting bungeecord...
 cd java/bungee_command
-java -Xmx32M -Xms32M -jar bungee-dist.jar > /dev/null 2>&1 &
+tmux new -d -s bungee java -Xmx32M -Xms32M -jar bungee-dist.jar
 cd -
 
 if [ "$setserver" = "true" -a "$syncweb" = "true" ]; then
