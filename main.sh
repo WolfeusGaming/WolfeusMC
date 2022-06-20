@@ -50,7 +50,9 @@ else
   curl -L -o stable-download.zip "$eagurl"
   echo extracting zip...
   mkdir /tmp/new
-  unzip stable-download.zip -d /tmp/new
+  cd /tmp/new
+  jar xvf $HOME/$REPL_SLUG/stable-download.zip
+  cd $HOME/$REPL_SLUG
   echo deleting original zip file...
   rm -rf stable-download.zip
   mkdir web
@@ -115,6 +117,19 @@ mkdir /tmp/nginx
 rm -rf nginx.conf
 sed "s/eaglercraft-server/$REPL_SLUG/" nginx_template.conf > nginx.conf
 nginx -c ~/$REPL_SLUG/nginx.conf -g 'daemon off; pid /tmp/nginx/nginx.pid;' -p /tmp/nginx -e /tmp/nginx/error.log > /tmp/nginx/output.log 2>&1 &
+
+if [ -f "base.repl" ] && ! { [ "$REPL_OWNER" == "ayunami2000" ] && [ "$REPL_SLUG" == "eaglercraft-server" ]; };
+then
+  echo resetting world and randomizing seed...
+  rm base.repl
+  rm -rf java/bukkit_command/world
+  rm -rf java/bukkit_command/world_nether
+  rm -rf java/bukkit_command/world_the_end
+  rm -f java/bukkit_command/server.log.lck
+  rm java/bukkit_command/server.log
+  rm -f java/bungee_command/proxy.log.0.lck
+  rm java/bungee_command/proxy.log.0
+fi
 
 echo starting bukkit...
 cd java/bukkit_command
