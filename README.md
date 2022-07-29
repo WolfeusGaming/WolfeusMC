@@ -8,6 +8,10 @@
 
 **THIS REPLIT USES [PluginInstaller](https://github.com/darverdevs/PluginInstaller)**
 
+**LATEST UPDATE: NOW FORWARDS IPS!!**
+
+**ALSO, IF IT DOESNT WORK, ANOTHER FIX IS TO RENAME THE REPLIT AND THEN RENAME IT BACK**
+
 ## Helpful video tutorial by a generous user
 motd changing is DIFFERENT than what these tutorials say!! -- check the `java/bungee_command/config.yml` for how to change (motd1 is first line, motd2 (you can add this) is the 2nd one)
 
